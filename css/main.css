@@ -109,14 +109,3 @@ body, html {
 .description.hidden p {
 	transform: translateY(2vh);
 }
-
-.copy {
-	display: flex;
-	position: relative;
-	align-items: center;
-	justify-content: center;
-  bottom: calc(var(--sizeindex) );
-  opacity: 0.45;
-  font-size: calc(var(--sizeindex) * .75 );
-  letter-spacing: calc(var(--sizeindex) / 37.5);
-}
